@@ -28,10 +28,7 @@ pub fn view() -> Html {
                 <a href="https://www.linkedin.com/in/simbleau/" target="_blank" alt="Go to LinkedIn">
                     <TapTarget mask={IconMask::LinkedIn} aria_label="LinkedIn" />
                 </a>
-                <a rel="me" href="https://mastodon.online/@scim" target="_blank" alt="Go to Mastodon">
-                    <TapTarget mask={IconMask::Mastodon} aria_label="Mastodon" />
-                </a>
-                <a href="https://www.github.com/simbleau/" target="_blank" alt="Go to GitHub">
+                <a href="https://www.github.com/nuzzles/" target="_blank" alt="Go to GitHub">
                     <TapTarget mask={IconMask::GitHub} aria_label="GitHub" />
                 </a>
             </div>

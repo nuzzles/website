@@ -25,7 +25,7 @@ pub fn view() -> Html {
                 <br />
                 <ExternalLink
                     icon={IconMask::GitHub}
-                    to={AttrValue::Static("https://github.com/simbleau/website")}
+                    to={AttrValue::Static("https://github.com/nuzzles/website")}
                 >
                     {"view source"}
                 </ExternalLink>

@@ -54,7 +54,7 @@ pub fn view() -> Html {
 
             <div>
                 <ExternalLink
-                    to={"https://github.com/simbleau/resume/releases/download/latest/resume.pdf"}
+                    to={"https://github.com/nuzzles/resume/releases/download/latest/resume.pdf"}
                     download={"Spencer_Imbleau_Resume.pdf"} // downloads the file as this name
                 >
                     {"click to download résumé"}
@@ -64,7 +64,7 @@ pub fn view() -> Html {
             <IFrame
                 title="Résumé"
                 class={classes!(resume_css)}
-                src="https://simbleau.github.io/resume/embed.html"
+                src="https://nuzzles.github.io/resume/embed.html"
             />
             <br />
             <span>
@@ -72,7 +72,7 @@ pub fn view() -> Html {
                 <span class={tap_target_css.clone()}>
                     <ExternalLink
                         icon={IconMask::Git}
-                        to={"https://github.com/simbleau/resume"}
+                        to={"https://github.com/nuzzles/resume"}
                         target={"_blank"}
                     >
                         {"source controlled"}
@@ -82,7 +82,7 @@ pub fn view() -> Html {
                 <span class={tap_target_css}>
                     <ExternalLink
                         icon={IconMask::Robot}
-                        to={"https://github.com/simbleau/resume/actions"}
+                        to={"https://github.com/nuzzles/resume/actions"}
                         target={"_blank"}
                     >
                         {"released continuously"}

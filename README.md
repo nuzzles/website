@@ -4,14 +4,14 @@
 
 **To view the website, [click here](https://spencer.imbleau.com).**
 
-[![last release](https://img.shields.io/github/release-date/simbleau/website?logo=github&label=Last%20Release)](https://github.com/simbleau/website/releases)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/simbleau/website/ci.yml?logo=github&label=CI)](https://github.com/simbleau/website/actions/workflows/ci.yml)
+[![last release](https://img.shields.io/github/release-date/nuzzles/website?logo=github&label=Last%20Release)](https://github.com/nuzzles/website/releases)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/nuzzles/website/ci.yml?logo=github&label=CI)](https://github.com/nuzzles/website/actions/workflows/ci.yml)
 
 </div>
 
 ## About
 
-My website is written in Rust with a frontend framework called [Yew](https://yew.rs), compiled to WebAssembly. Code is tested using [GitHub Actions](https://github.com/simbleau/website/actions/workflows/ci.yml) and deployment is automated through CI/CD with Terraform. Pushing to `main` will deploy to prod (AWS) and cutting a new [release](https://github.com/simbleau/website/releases/tag/latest) will attach the optimized `dist/` and sh256 hashes.
+My website is written in Rust with a frontend framework called [Yew](https://yew.rs), compiled to WebAssembly. Code is tested using [GitHub Actions](https://github.com/nuzzles/website/actions/workflows/ci.yml) and deployment is automated through CI/CD with Terraform. Pushing to `main` will deploy to prod (AWS) and cutting a new [release](https://github.com/nuzzles/website/releases/tag/latest) will attach the optimized `dist/` and sh256 hashes.
 
 ## 🔧 Development
 

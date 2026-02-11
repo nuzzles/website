@@ -1,8 +1,6 @@
 name: Release Latest
 on:
-  push:
-    branches: [main]
-  workflow_call:
+  workflow_dispatch:
 
 concurrency:
   group: apply

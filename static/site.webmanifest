@@ -1,8 +1,8 @@
 {
-    "name": "Spencer C. Imbleau",
+    "name": "Spencer Imbleau",
     "short_name": "Spencer's Homepage",
     "start_url": "https://spencer.imbleau.com/",
-    "description": "This is the web page of Spencer C. Imbleau. I am an American research software engineer.",
+    "description": "This is the web page of Spencer Imbleau. I am an American research software engineer.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

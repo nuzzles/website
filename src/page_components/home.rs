@@ -26,7 +26,7 @@ pub fn view() -> Html {
     html! {
         <div align="center" class={container_style}>
             <ProfilePicture src={"/static/images/me.webp"} />
-            <h1>{"Spencer C. Imbleau"}</h1>
+            <h1>{"Spencer Imbleau"}</h1>
             <EmailButton email_base64={"c3BlbmNlckBpbWJsZWF1LmNvbQ=="} />
             <br/>
             <div class={ css!("display: inline-flex; & > * {margin: 0 10px;}") }>

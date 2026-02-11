@@ -21,7 +21,7 @@ pub fn ProfilePicture(props: &ProfilePictureProps) -> Html {
 
     html! {
         <img
-            alt="Spencer C. Imbleau"
+            alt="Spencer Imbleau"
             width="300px"
             height="300px"
             class={img_css}

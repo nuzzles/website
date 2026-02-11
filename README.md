@@ -1,6 +1,6 @@
 <div align="center">
 
-# Spencer C. Imbleau's Website
+# Spencer Imbleau's Website
 
 **To view the website, [click here](https://spencer.imbleau.com).**
 

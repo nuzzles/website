@@ -1,6 +1,6 @@
 [package]
 name = "website"
-description = "Personal website of Spencer C. Imbleau"
+description = "Personal website of Spencer Imbleau"
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.92.0"

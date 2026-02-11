@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Personal portfolio website for Spencer C. Imbleau, built with Rust + Yew compiled to WebAssembly.
+Personal portfolio website for Spencer Imbleau, built with Rust + Yew compiled to WebAssembly.
 Live at <https://spencer.imbleau.com>.
 
 ## Build & Run

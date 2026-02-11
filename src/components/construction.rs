@@ -1,7 +1,8 @@
-use crate::router::Route;
 use stylist::yew::styled_component;
 use yew::prelude::*;
 use yew_router::prelude::*;
+
+use crate::router::Route;
 
 #[derive(Properties, PartialEq, Eq)]
 pub struct ConstructionProps {

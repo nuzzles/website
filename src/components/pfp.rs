@@ -1,6 +1,7 @@
-use crate::hooks::use_theme;
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::hooks::use_theme;
 
 #[derive(Properties, PartialEq)]
 pub struct ProfilePictureProps {

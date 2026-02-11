@@ -1,8 +1,10 @@
-use crate::{components::Spinner, hooks::use_theme};
 use stylist::yew::styled_component;
 use wasm_bindgen::JsCast;
 use web_sys::Element;
 use yew::prelude::*;
+
+use crate::components::Spinner;
+use crate::hooks::use_theme;
 
 #[derive(Properties, PartialEq)]
 pub struct IFrameProps {

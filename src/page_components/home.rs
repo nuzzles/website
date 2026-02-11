@@ -1,6 +1,11 @@
-use crate::components::{EmailButton, Footer, IconMask, ProfilePicture, TapTarget};
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::components::EmailButton;
+use crate::components::Footer;
+use crate::components::IconMask;
+use crate::components::ProfilePicture;
+use crate::components::TapTarget;
 
 #[styled_component(HomePage)]
 pub fn view() -> Html {

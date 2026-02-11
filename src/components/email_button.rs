@@ -1,7 +1,8 @@
-use crate::hooks::use_theme;
 use base64::Engine;
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::hooks::use_theme;
 
 #[derive(Properties, PartialEq, Eq)]
 pub struct EmailButtonProps {

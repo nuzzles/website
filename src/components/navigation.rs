@@ -1,9 +1,9 @@
-use crate::{
-    components::{NavDestination, NavLink},
-    router::Route,
-};
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::components::NavDestination;
+use crate::components::NavLink;
+use crate::router::Route;
 
 #[styled_component(Navigation)]
 pub fn view() -> Html {

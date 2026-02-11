@@ -1,6 +1,7 @@
-use crate::components::Construction;
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::components::Construction;
 
 #[styled_component(NotFoundPage)]
 pub fn view() -> Html {

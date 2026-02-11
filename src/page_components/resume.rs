@@ -1,6 +1,9 @@
-use crate::components::{ExternalLink, IFrame, IconMask};
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::components::ExternalLink;
+use crate::components::IFrame;
+use crate::components::IconMask;
 
 const PDF_MIN_HEIGHT: &str = "500px";
 const PDF_HEIGHT: &str = "100vh";

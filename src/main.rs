@@ -4,18 +4,21 @@ mod page_components;
 mod router;
 mod style;
 
-use crate::{
-    components::DesktopHeader,
-    hooks::{BrowserPreference, ThemeProvider},
-    router::Route,
-    style::{global::use_global_css, themes::ThemeChoice},
-};
-use log::{info, warn};
-use stylist::yew::{Global, styled_component};
+use log::info;
+use log::warn;
+use stylist::yew::Global;
+use stylist::yew::styled_component;
 use url::Url;
 use web_sys::window;
 use yew::prelude::*;
 use yew_router::prelude::*;
+
+use crate::components::DesktopHeader;
+use crate::hooks::BrowserPreference;
+use crate::hooks::ThemeProvider;
+use crate::router::Route;
+use crate::style::global::use_global_css;
+use crate::style::themes::ThemeChoice;
 
 #[function_component(Root)]
 pub fn view() -> Html {

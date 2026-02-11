@@ -1,10 +1,11 @@
-use crate::{
-    components::{IconMask, TapTarget},
-    hooks::{BrowserPreference, use_theme},
-    style::themes::ThemeChoice,
-};
 use log::info;
 use yew::prelude::*;
+
+use crate::components::IconMask;
+use crate::components::TapTarget;
+use crate::hooks::BrowserPreference;
+use crate::hooks::use_theme;
+use crate::style::themes::ThemeChoice;
 
 #[function_component(ThemeSwitcher)]
 pub fn view() -> Html {

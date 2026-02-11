@@ -1,8 +1,9 @@
-use super::IconMask;
-use crate::hooks::use_theme;
 use hex_color::HexColor;
 use stylist::css;
 use yew::prelude::*;
+
+use super::IconMask;
+use crate::hooks::use_theme;
 
 #[derive(Properties, PartialEq)]
 pub struct Props {

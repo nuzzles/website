@@ -1,7 +1,9 @@
-use crate::hooks::BrowserPreference;
 use hex_color::HexColor;
 use once_cell::sync::Lazy;
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
+use serde::Serialize;
+
+use crate::hooks::BrowserPreference;
 
 #[derive(Serialize, Deserialize, Debug, Clone, Copy, Hash, PartialEq, Eq)]
 pub enum ThemeChoice {

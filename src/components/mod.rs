@@ -8,13 +8,16 @@ mod theme_switcher;
 pub use theme_switcher::ThemeSwitcher;
 
 mod nav_link;
-pub use nav_link::{NavDestination, NavLink};
+pub use nav_link::NavDestination;
+pub use nav_link::NavLink;
 
 mod icons;
-pub use icons::{Icon, IconMask};
+pub use icons::Icon;
+pub use icons::IconMask;
 
 mod links;
-pub use links::{ExternalLink, InternalLink};
+pub use links::ExternalLink;
+pub use links::InternalLink;
 
 mod tap_target;
 pub use tap_target::TapTarget;

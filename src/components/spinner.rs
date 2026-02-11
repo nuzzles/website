@@ -1,6 +1,7 @@
-use crate::hooks::use_theme;
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::hooks::use_theme;
 
 const R: f32 = 10.0;
 const STROKE_WIDTH: f32 = 3.0;

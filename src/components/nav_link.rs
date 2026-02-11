@@ -1,10 +1,10 @@
-use crate::{
-    components::{ExternalLink, InternalLink},
-    hooks::use_theme,
-    router::Route,
-};
 use stylist::yew::styled_component;
 use yew::prelude::*;
+
+use crate::components::ExternalLink;
+use crate::components::InternalLink;
+use crate::hooks::use_theme;
+use crate::router::Route;
 
 #[derive(PartialEq)]
 pub enum NavDestination {

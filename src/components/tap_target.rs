@@ -1,10 +1,11 @@
-use crate::{
-    components::{Icon, IconMask},
-    hooks::use_theme,
-};
 use hex_color::HexColor;
-use stylist::{css, yew::use_media_query};
+use stylist::css;
+use stylist::yew::use_media_query;
 use yew::prelude::*;
+
+use crate::components::Icon;
+use crate::components::IconMask;
+use crate::hooks::use_theme;
 
 #[derive(Properties, PartialEq)]
 pub struct Props {

@@ -1,6 +1,9 @@
-use crate::hooks::use_theme;
-use stylist::{StyleSource, css, yew::use_media_query};
+use stylist::StyleSource;
+use stylist::css;
+use stylist::yew::use_media_query;
 use yew::hook;
+
+use crate::hooks::use_theme;
 
 #[hook]
 pub fn use_global_css() -> (StyleSource, StyleSource) {

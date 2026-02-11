@@ -18,7 +18,16 @@ pub fn view() -> Html {
     ];
 
     let links_css = css! {
+        list-style-type: none;
         padding: 0;
+        margin: 0;
+
+        & li {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline-block;
+        }
+
         a,a:hover {
             text-decoration:none;
         }

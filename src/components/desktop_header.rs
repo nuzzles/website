@@ -9,27 +9,17 @@ pub fn view() -> Html {
     let header_css = css! {
         margin-bottom: 20px;
         width: 100%;
-    };
-
-    let list_css = css! {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-
-        & li {
-            padding-left: 10px;
-            padding-right: 10px;
-            display: inline-block;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     };
 
     html! {
         <header class={ header_css }>
-            <div id="nav-wrapper" align="center">
-                <ul class={list_css}>
-                    <li><ThemeSwitcher /></li>
-                    <li><Navigation /></li>
-                </ul>
+            <Navigation />
+            <div class={ css!("transform: scale(0.75);") }>
+                <ThemeSwitcher />
             </div>
         </header>
     }

@@ -15,7 +15,7 @@ pub fn ProfilePicture(props: &ProfilePictureProps) -> Html {
     const BORDER_WIDTH: &str = "3px";
 
     let img_css = css! {
-        border-radius: 50%;
+        border-radius: 20px;
         min-width: 300px;
         width: min(40vh, 40vw);
         max-width: 450px;

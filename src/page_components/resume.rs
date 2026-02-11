@@ -70,7 +70,7 @@ pub fn view() -> Html {
                 src="https://nuzzles.github.io/resume/embed.html"
             />
             <br />
-            <span>
+            <span class={ css!("padding: 0 10px;") }>
                 {"this résumé is "}
                 <span class={tap_target_css.clone()}>
                     <ExternalLink
